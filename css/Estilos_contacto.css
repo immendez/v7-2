@@ -1,0 +1,487 @@
+
+/*animación del hover telefono*/
+
+
+/**************control de la versión de escritorio**************/
+
+	/*
+	#Concacto{
+		height:auto; 
+		background:none;
+		font-family:'arial';
+		position:absolute;
+		text-align: center;
+		padding-bottom:200px;
+	}
+
+
+
+	#Concacto  #span_contactanos{
+		position:relative;
+	    top:50px;
+		margin-left:10vw;
+		margin-right:10vw;
+		/*background:cyan;
+		font-size:2.8em;
+
+	}*/
+.caja_medios_contacto
+	{
+		top:60px;
+		margin-bottom:40px;
+		position:relative;
+		margin-left:20vw;
+		margin-right:20vw;
+		background:none;
+		width:100%;
+		/*centra todo el texto que contiene el div*/
+		text-align:center;
+		
+		
+		
+	}
+	/*--------------------------------------------FACEBOOK-------------------------------------*/
+
+	
+
+	.caja_medios_contacto .iconos_contacto_linkeados_facebook
+	{
+		top:60px;
+		width:100%;
+		height:80%;
+		background:none;
+		/*border-radius:25%;
+		border: 9px double;
+	    border-color: #3b5999;*/
+	    
+
+
+	}
+/*caracteristicas de icono de facebook*/
+	.caja_medios_contacto .iconos_contacto_linkeados_facebook #c_facebook
+	{
+	    color:#8BA6CB;
+		width:100px;
+		height:100px;
+		border-width:3px;
+		border-color:black;
+		/*background:blue;*/
+		display:block;
+		position:relative;
+		top:-45px;
+		left:50%;
+		transform:translateX(-50%);
+		margin-top:20px;
+		
+
+		
+
+	}
+
+
+
+	/*pone el caracter de facebook*/
+	.caja_medios_contacto .iconos_contacto_linkeados_facebook #c_facebook:nth-child(1):after{
+		text-decoration:none;
+		position:absolute;
+		font-size:100px;
+		top:-8px;
+		left:50%;
+		transform:translateX(-50%);
+		font-family:'icomoon';
+		content:'\ea91';
+	}
+
+	/*animación del hover facebook*/
+
+	.caja_medios_contacto .iconos_contacto_linkeados_facebook #c_facebook:nth-child(1):hover{
+		
+		content:'\ea91';
+		color:#3b5999;
+	}
+
+	.caja_medios_contacto .iconos_contacto_linkeados_facebook #c_facebook_texto{
+	   position:relative;
+	   top:0px;
+	   text-align:center;
+	   width:100%;
+	   height:25px;
+	   /*background:white;*/
+	   color:black;
+	   font-size:25px;
+	}
+
+	.caja_medios_contacto .iconos_contacto_linkeados_facebook #c_facebook_texto_link a{
+	   position:relative;
+	   top:20px;
+	   text-decoration:none;
+	   width:100%;
+	   height:auto;
+	   background:none;
+	   text-align:center;
+	    /*background:red;
+	   opacity:0.5;*/
+	   color:red;
+	   font-size:2.4rem;
+	   margin-bottom:10px;
+	}
+
+	/*--------------------------------------------FACEBOOK-------------------------------------*/
+
+	/*----------------------------------------------YAHOO--------------------------------------*/
+/*
+	#Concacto .cuerpo_contacto_yahoo{
+		top:140px;
+		position:relative;
+		margin-left:20vw;
+		margin-right:20vw;
+		/*background:red;
+		height:auto; 
+
+		
+
+	}
+
+	#Concacto .cuerpo_contacto_yahoo .iconos_contacto_linkeados_yahoo
+	{
+		top:140px;
+		padding-top:10px;
+		padding-bottom:50px;
+		margin-top:70px;
+		width:100%;
+		height:auto; 
+		background:#5D636A;
+		/*border-radius:25%;
+		border: 9px double;
+	    border-color: #3b5999;	}
+
+	#Concacto .cuerpo_contacto_yahoo .iconos_contacto_linkeados_yahoo #c_yahoo
+	{
+	    color:white;
+		width:100px;
+		height:100px;
+		/*background:blue;
+		display:block;
+		position:relative;
+		top:-25px;
+		left:50%;
+		transform:translateX(-50%);
+		margin-top:20px;
+		
+
+	}
+
+
+
+	/*pone el caracter de yahoo
+	#Concacto .cuerpo_contacto_yahoo .iconos_contacto_linkeados_yahoo #c_yahoo:nth-child(1):after{
+		text-decoration:none;
+		position:absolute;
+		font-size:100px;
+		top:-8px;
+		left:50%;
+		transform:translateX(-50%);
+		font-family:'icomoon';
+		content:'\eabc';
+	}
+
+	/*animación del hover yahoo
+
+	#Concacto .cuerpo_contacto_yahoo .iconos_contacto_linkeados_yahoo #c_yahoo:nth-child(1):hover{
+		
+		content:'\eabc';
+		color:#410093;
+	}
+
+	#Concacto .cuerpo_contacto_yahoo .iconos_contacto_linkeados_yahoo #c_yahoo_texto{
+	   position:relative;
+	   top:10px;
+	   width:100%;
+	   height:25px;
+	   /*background:white;
+	   color:black;
+	   font-size:25px;
+	}
+
+	#Concacto .cuerpo_contacto_yahoo .iconos_contacto_linkeados_yahoo #c_yahoo_texto_link a{
+	    position:relative;
+	   top:20px;
+	   text-decoration:none;
+	   width:100%;
+	   height:auto;
+	   background:none;
+	   /*background:red;
+	   opacity:0.5;
+	   color:black;
+	   display:block;
+	   font-size:.8em;
+	   margin-bottom:10px;
+	}
+*/
+	/*----------------------------------------------YAHOO--------------------------------------*/
+
+	/*----------------------------------------------GMAIL--------------------------------------*/
+	.caja_medios_contacto.iconos_contacto_linkeados_gmail
+	{
+		top:60px;
+		width:100%;
+		height:80%;
+		background:blue;
+		/*border-radius:25%;
+		border: 9px double;
+	    border-color: #3b5999;*/
+	}
+
+	.caja_medios_contacto .iconos_contacto_linkeados_gmail #c_gmail
+	{
+	    color:#F77D6E;
+		width:100px;
+		height:100px;
+		border-width:3px;
+		border-color:black;
+		/*background:blue;*/
+		display:block;
+		position:relative;
+		top:-45px;
+		left:50%;
+		transform:translateX(-50%);
+		margin-top:20px;
+		
+
+	}
+
+
+
+	/*pone el caracter de gmail*/
+	.caja_medios_contacto .iconos_contacto_linkeados_gmail #c_gmail:nth-child(1):after{
+		text-decoration:none;
+		position:absolute;
+		font-size:100px;
+		top:-8px;
+		left:50%;
+		transform:translateX(-50%);
+		font-family:'icomoon';
+		content:'\e901';
+	}
+
+	/*animación del hover gmail*/
+
+	.caja_medios_contacto .iconos_contacto_linkeados_gmail #c_gmail:nth-child(1):hover{
+		
+		content:'\e901';
+		color:#dd4b39;
+	}
+
+	.caja_medios_contacto .iconos_contacto_linkeados_gmail #c_gmail_texto{
+	   position:relative;
+	   top:0px;
+	   text-align:center;
+	   width:100%;
+	   height:25px;
+	   /*background:white;*/
+	   color:black;
+	   font-size:25px;
+	}
+
+	.caja_medios_contacto .iconos_contacto_linkeados_gmail #c_gmail_texto_link a{
+	   position:relative;
+	   top:20px;
+	   text-decoration:none;
+	   width:100%;
+	   height:auto;
+	   background:none;
+	   text-align:center;
+	    /*background:red;
+	   opacity:0.5;*/
+	   color:red;
+	   font-size:2.4rem;
+	   margin-bottom:10px;
+	}
+/*corrigue el tamaño del link de gmail para corregir el desface por el tamaño de la letra*/
+	@media only screen and (min-width: 320px) and (max-width: 420px)
+		{
+		  .caja_medios_contacto .iconos_contacto_linkeados_gmail #c_gmail_texto_link a{
+	   position:relative;
+	   top:20px;
+	   text-decoration:none;
+	   width:100%;
+	   height:auto;
+	   background:none;
+	   text-align:center;
+	   /*background:red;
+	   opacity:0.5;*/
+	   color:red;
+	   font-size:1.8rem;
+	   margin-bottom:10px;
+	}
+
+		}
+
+	/*----------------------------------------------GMAIL--------------------------------------*/
+
+
+	/*--------------------------------------------WhatsApp-------------------------------------*/
+
+	.caja_medios_contacto .iconos_contacto_NO_linkeados_whatsapp
+	{
+		top:60px;
+		width:100%;
+		height:80%;
+		/*background:blue;/*
+		/*border-radius:25%;
+		border: 9px double;
+	    border-color: #3b5999;*/
+	}
+
+	.caja_medios_contacto .iconos_contacto_NO_linkeados_whatsapp #c_whatsapp
+	{
+	   color:#81F5AD;
+		width:100px;
+		height:100px;
+		border-width:3px;
+		border-color:black;
+		/*background:blue;*/
+		display:block;
+		position:relative;
+		top:-45px;
+		left:50%;
+		transform:translateX(-50%);
+		margin-top:20px;
+		
+
+	}
+
+
+
+	/*pone el caracter de WhatsApp*/
+	.caja_medios_contacto .iconos_contacto_NO_linkeados_whatsapp #c_whatsapp:nth-child(1):after{
+		text-decoration:none;
+		position:absolute;
+		font-size:100px;
+		top:-8px;
+		left:50%;
+		transform:translateX(-50%);
+		font-family:'icomoon';
+		content:'\ea93';
+	}
+
+	/*animación del hover whatsApp*/
+
+	.caja_medios_contacto .iconos_contacto_NO_linkeados_whatsapp #c_whatsapp:nth-child(1):hover{
+		
+		content:'\ea93';
+		color:#25D366;
+	}
+
+	.caja_medios_contacto .iconos_contacto_NO_linkeados_whatsapp  #c_whatsapp_texto{
+	 position:relative;
+     top:0px;
+     text-align:center;
+     width:100%;
+     height:25px;
+     /*background:white;*/
+     color:black;
+     font-size:25px;
+
+	}
+
+	.caja_medios_contacto .iconos_contacto_NO_linkeados_whatsapp  #c_whatsapp_texto_link a {
+	 position:relative;
+     top:20px;
+     text-decoration:none;
+     width:100%;
+     height:auto;
+     background:none;
+     text-align:center;
+      /*background:red;
+     opacity:0.5;*/
+     color:red;
+     font-size:2.4rem;
+     margin-bottom:10px;
+	}
+
+	/*--------------------------------------------WhatsApp-------------------------------------*/
+
+	/*--------------------------------------------Telefono-------------------------------------*/
+
+	.caja_medios_contacto .iconos_contacto_NO_linkeados_telefono
+	{
+		top:60px;
+		width:100%;
+		height:80%;
+		/*background:blue;/*
+		/*border-radius:25%;
+		border: 9px double;
+	    border-color: #3b5999;*/
+
+	}
+
+	.caja_medios_contacto .iconos_contacto_NO_linkeados_telefono #c_telefono
+	{
+	    color:#83DCFC;
+		width:100px;
+		height:100px;
+		border-width:3px;
+		border-color:black;
+		/*background:blue;*/
+		display:block;
+		position:relative;
+		top:-45px;
+		left:50%;
+		transform:translateX(-50%);
+		margin-top:20px;
+		
+
+	}
+
+
+
+	/*pone el caracter de telefono*/
+	.caja_medios_contacto .iconos_contacto_NO_linkeados_telefono #c_telefono:nth-child(1):after{
+		text-decoration:none;
+		position:absolute;
+		font-size:100px;
+		top:-8px;
+		left:50%;
+		transform:translateX(-50%);
+		font-family:'icomoon';
+		content:'\e942';
+	}
+
+	/*animación del hover telefono*/
+
+	.caja_medios_contacto .iconos_contacto_NO_linkeados_telefono #c_telefono:nth-child(1):hover{
+		
+		content:'\e942';
+		color:#00AFF0;
+	}
+
+	.caja_medios_contacto .iconos_contacto_NO_linkeados_telefono #c_telefono_texto{
+	 position:relative;
+     top:0px;
+     text-align:center;
+     width:100%;
+     height:25px;
+     /*background:white;*/
+     color:black;
+     font-size:25px;
+	}
+
+	.caja_medios_contacto .iconos_contacto_NO_linkeados_telefono  #c_telefono_texto_link a{
+	 position:relative;
+     top:20px;
+     text-decoration:none;
+     width:100%;
+     height:auto;
+     background:none;
+     text-align:center;
+      /*background:red;
+     opacity:0.5;*/
+     color:red;
+     font-size:2.4rem;
+     margin-bottom:10px;
+	}
+
+
+
+	/*--------------------------------------------Telefono-------------------------------------*/

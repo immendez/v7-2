@@ -1,0 +1,10 @@
+$(document).ready(function(){
+		{
+			$('#modal').show(1000);
+			$('#modal').show("fast");
+		 };
+		{
+			$('#modal').hide(5000);
+			$('#modal').hide("slow");
+		 };
+	});

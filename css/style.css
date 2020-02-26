@@ -1,0 +1,379 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** 1rem = 10px **/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+/** Globales **/
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'PT Sans', sans-serif;
+}
+p{
+    font-size:2.1rem;
+
+
+}
+
+.TituloMision,
+.TituloVision,
+.TituloSomos{
+    color:red;
+    background:none;
+    text-align:center;
+}
+
+.TextoMision,
+.TextoVision,
+.TextoSomos{
+    font-size:1.9rem;
+    background:none;
+    text-align:justify;
+}
+
+
+h1 {
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+.texto_inicio{
+    font-size:3rem;
+    background:none;
+    padding:1rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+h4{
+    font-size: 2.8rem;
+}
+
+h5{
+    font-size: 2.8rem;
+    color:red;
+}
+/*general formato de imagenes*/
+img {
+    max-width: 100%;
+    
+}
+
+.conenedor-portada-ritos {
+    margin-top:-1rem;
+    object-fit:fill;
+    width:100%;
+    height:500px;
+    min-height:500px;
+}
+.conenedor-portada-ritos .portada-img{
+    background-image: url(../img/banner-portada.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    width:100%;
+    height:100%;
+
+}
+
+/** Utilidades **/
+.centrar-texto {
+    text-align: center;
+}
+.no-margin {
+    margin: 0;
+}
+
+/** Grid **/
+@media (min-width: 768px) {
+    .grid {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .centrar-columnas {
+        justify-content: center;
+    }
+    .columnas-4 {
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+    .columnas-6 {
+        flex: 0 0 calc(50% - 1rem);
+    }
+    /*fotos nosotros*/
+    .columnas-9 {
+        flex: 0 0 calc(45% - 1rem);
+    }
+    .columnas-8 {
+        flex: 0 0 calc(66.6% - 1rem);
+    }
+    .columnas-10 {
+        flex: 0 0 calc(83.3% - 1rem);
+    }
+    .columnas-12 {
+        flex: 0 0 100%;
+    }
+}
+
+/** Botones **/
+.btn {
+    display: block;
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 2rem 0;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+    flex: 0 0 100%;
+}
+.btn:hover {
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .btn {
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
+
+.btn-primario {
+    background-color: #000000;
+    width:250px;
+    font-size:1rem;
+}
+
+.btn-primario:hover {
+    background-color:#ffffff;
+    color:#000000;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.btn-secundario {
+    background-color: #784d3c;
+}
+
+/** Header **/
+@media (min-width:768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+.site-header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.site-header h1 {
+    text-align: center;
+    font-weight: 400;
+}
+.site-header h1 span {
+    font-weight: 700;
+}
+
+/** header texto **/
+.texto-header {
+    /*background:blue;*/
+    color: #ffffff;
+    text-align: center;
+    margin-top: 9rem;
+}
+@media (min-width: 768px) {
+    .texto-header{
+        margin-top: 15rem;
+    }
+}
+.texto-header p {
+    font-size: 2.2rem;
+}
+
+/** Contenido Principal HOME **/
+.contenido-principal {
+    display: flex;
+    flex-wrap: wrap;
+}
+.inicio,
+.contacto{
+    flex: 0 0 100%;
+}
+
+
+@media (min-width: 768px) {
+    .contenido-principal {
+        justify-content: center;
+    }
+    .inicio,
+    .contacto{
+        flex-basis: 66.6%;
+    }
+    .cursos {
+        flex-basis: calc(33.3% - 4rem);
+        order: 2;
+    }
+}
+
+/** Opcional **/
+.entrada-inicio,
+.entrada-contacto{
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+.entrada-inicio:last-of-type{
+    border: none;
+}
+.entrada-contacto:last-of-type{
+    border: none;
+}
+/** Cursos Sidebar **/
+.cursos-lista {
+    padding: 0;
+    list-style: none;
+}
+.curso {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+.curso:last-of-type {
+    border-bottom: none;
+}
+.curso p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.curso p span,
+.curso p.descripcion  {
+    font-weight: 400;
+}
+/*correción de error en el banner de tablets*/
+/* Media Query for Tablets Ipads portrait mode */ 
+        @media (min-width: 768px) and (max-width:799px)
+        {
+            .conenedor-portada-ritos
+            {
+                margin-top:-1rem;
+                object-fit:fill;
+                width:100%;
+                height:500px;
+                min-height:500px;
+            }
+            .conenedor-portada-ritos .portada-img
+            {
+                background-image: url(../img/banner-portada-t.jpg);
+                background-repeat:no-repeat;
+                background-position:center center;
+                background-size:cover;
+                width:100%;
+                height:100%;
+
+            }
+             .texto-header
+                {
+                background:none;
+                color: #ffffff;
+                text-align: center;
+                margin-top: 9rem;
+                }
+                .texto_inicio
+                {
+                    font-size:2rem;
+                    background:none;
+                    padding:.5rem;
+                    text-align:justify;
+                } 
+        }
+
+#nuestros_trb_facebook a {
+    color:red;
+    text-decoration: none;
+    font-size:2rem;
+    background:none;
+    width:auto;
+    padding-right:10px;
+    text-transform: uppercase;
+    
+}
+
+#nuestros_trb_facebook a:hover{
+    color:white;
+    text-decoration: none;
+    font-size:2rem;
+    background:#3b5999;
+}
+
+/* Media Query for Tablets Ipads portrait mode */ 
+        @media (min-width: 768px) and (max-width:799px)
+        {
+            .conenedor-portada-ritos
+           {
+                margin-top:7rem;
+                object-fit:fill;
+                width:100%;
+                height:300;
+                min-height:300px;
+            }
+            .conenedor-portada-ritos .portada-img
+            {
+                background-image: url(../img/banner-portada-t.jpg);
+                background-repeat:no-repeat;
+                background-position:center center;
+                background-size:cover;
+                width:100%;
+                height:100%;
+
+            } 
+        }
+
+
+/*banner portada moviles*/
+@media  (min-width: 320px) and (max-width:425px)
+{
+            .conenedor-portada-ritos
+           {
+                margin-top:7rem;
+                object-fit:fill;
+                width:100%;
+                height:300;
+                min-height:300px;
+            }
+            .conenedor-portada-ritos .portada-img
+            {
+                background-image: url(../img/banner-portada-m.jpg);
+                background-repeat:no-repeat;
+                background-position:center center;
+                background-size:cover;
+                width:100%;
+                height:100%;
+
+            }
+        .texto_inicio
+        {
+            font-size:2rem;
+            background:none;
+            padding:.5rem;
+            text-align:center;
+        }  
+}

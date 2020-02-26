@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Prueba</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+$( function(){   
+    //Muestro el primer div
+    $("#columnas div:eq(0)").show();
+    //cada 1 segundo ejecuto la función mostrar()
+    setInterval("mostrar()",1000);
+});
+mostrar = function(){
+    //Oculto el div que se encuentra vivisble
+    var div = $("#columnas div:visible").hide();
+    //Selecciono el siguiente div que oculte en el paso anterior
+    divNext = div.next();
+    //Si existe otro div después lo muestro, si no existe quiere decir que es el último, entonces muestro el primero para que la próxima vez que se ejecute la función continue con el segundo
+    if(divNext.length){
+        divNext.show();
+    } else {
+        $("#columnas div:eq(0)").show();
+    }
+};
+</script>
+<style>
+    #columnas>div{width:50px; height:300px; display:none}
+    #uno{background:red}
+    #dos{background:blue}
+    #tres{background:green}
+    #cuatro{background:black}
+</style>
+</head>
+<body>
+<ul id="columnas">
+        <div id="uno"></div>
+    <div id="dos"></div>
+    <div id="tres"></div>
+    <div id="cuatro"></div>
+</ul>
+</body>
+</html>

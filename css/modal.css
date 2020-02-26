@@ -1,0 +1,292 @@
+
+.modal {
+  width:100%;
+  height:100vh;
+  background:black;
+  opacity:0.8;
+  z-index:1001;
+  overflow-x:hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  /*animation:modal .5s forwards;
+
+  
+  animation-delay:modal .5s;/*muestra el modal
+  animation: modal 10s normal;/*cierra el modal*/
+  visibility: hidden;
+  opacity: 0;
+
+
+
+}
+/*.modal {animation:modal 4s normal;}*/
+/*
+@keyframes modal {
+  0% {
+    
+    visibility:1;
+  }
+    20% {
+    
+    visibility:1;
+  }
+    40% {
+    
+    visibility:1;
+  }
+    50% {
+    
+    visibility:1;
+  }
+    70% {
+    
+    visibility:1;
+  }
+    90% {
+    
+    visibility:1;
+  }
+  100% {
+    
+    visibility:0;
+  }
+}*/
+
+
+.contenido {
+  margin:auto;
+  width:100%;
+  height:auto;
+  background:black;
+  border-radius:10px;
+  font-size:1.5rem;
+  text-align:center;
+  color:white;
+  visibility:0;
+}
+
+#cerrar {
+  display: none;
+}
+
+
+
+label{
+  color:red;
+  font-size:30px;
+  position:absolute;
+  text-align:center;
+  line-height:center;
+  right:0%;
+  margin-top:0%;
+  margin-bottom:0%;
+  top:0%;
+  vertical-align:center;
+  
+}
+
+label:hover{
+  color:#bfff00;
+  font-size:30px;
+  position:absolute;
+  text-align:center;
+  line-height:center;
+  right:0%;
+  margin-top:0%;
+  margin-bottom:0%;
+  top:0%;
+  vertical-align:center;
+  background:none;
+-webkit-text-stroke: 1px black;
+}
+
+ 
+}
+
+/*Móviles 320px */
+    @media screen (min-width:320px){ 
+    #cerrar + label {
+      position:fixed;
+      z-index:1003;
+      background:red;
+      border-radius:0%;
+      height:350px;
+      width:350px;
+      right:50%;
+      top:50%;
+      cursor: pointer;
+      animation: modal 1s 1s forwards;
+      visibility: hidden;
+      opacity:1;
+      margin-top:auto;
+      margin-bottom: auto;
+     
+    }
+}
+/*Móviles  375px */
+@media (min-width:320px) and (max-height:732px) {
+    #cerrar + label {
+       position:fixed;
+      z-index:1002;
+      background:none;
+      border-radius:0%;
+      height:35px;
+      width:35px;
+      right:50%;
+      top:74.5%;
+      cursor: pointer;
+      animation: modal 1s 1s forwards;
+      visibility: hidden;
+      opacity: 0;
+      margin-top:auto;
+      margin-bottom: auto;
+      
+    }
+}
+
+/*Móviles  425px */
+@media (min-width:425px) and (max-width:767px) {
+    #cerrar + label {
+       position:fixed;
+      z-index:1002;
+      background:none;
+      border-radius:0%;
+      height:35px;
+      width:35px;
+      right:50%;
+      top:75%;
+      cursor: pointer;
+      animation: modal 1s 1s forwards;
+      visibility: hidden;
+      opacity: 0;
+      margin-top:auto;
+      margin-bottom: auto;
+      
+    }
+}
+/*table*/
+@media (min-width: 768px) and (max-width:799px)
+        {
+        #cerrar + label
+      {
+      position:fixed;
+      z-index:1002;
+      background:none;
+      border-radius:0%;
+      height:35px;
+      width:35px;
+      right:50%;
+      top:72%;
+      cursor: pointer;
+      animation: modal 1s 1s forwards;
+      visibility: hidden;
+      opacity: 0;
+      margin-top:auto;
+      margin-bottom: auto;
+      }
+        }
+/*escritorio 1024px*/
+@media (min-width: 800px) and (max-width:1024px)
+        {
+        #cerrar + label
+      {
+      position:fixed;
+      z-index:1002;
+      background:none;
+      border-radius:0%;
+      height:35px;
+      width:35px;
+      right:50%;
+      top:69%;
+      cursor: pointer;
+      animation: modal 1s 1s forwards;
+      visibility: hidden;
+      opacity: 0;
+      margin-top:auto;
+      margin-bottom: auto;
+      }
+        }
+
+       
+/*escritorio 1025px*/
+@media (min-width: 1025px)
+        {
+        #cerrar + label
+      {
+      position:fixed;
+      z-index:1002;
+      background:none;
+      border-radius:0%;
+      height:35px;
+      width:35px;
+      right:50%;
+      top:69%;
+      cursor: pointer;
+      animation: modal 1s 1s forwards;
+      visibility: hidden;
+      opacity: 0;
+      margin-top:auto;
+      margin-bottom: auto;
+      }
+        }
+
+        /*escritorio 1350px pantalla normal*/
+@media (min-width: 1350px) and (max-width:1600px)
+        {
+        #cerrar + label
+      {
+      position:fixed;
+      z-index:1002;
+      background:none;
+      border-radius:0%;
+      height:35px;
+      width:35px;
+      right:50%;
+      top:67%;
+      cursor: pointer;
+      animation: modal 1s 1s forwards;
+      visibility: hidden;
+      opacity: 0;
+      margin-top:auto;
+      margin-bottom: auto;
+      }
+        }
+
+
+        /*escritorio 2560px*/
+@media (min-width: 1601px) and (max-width:2560px)
+        {
+        #cerrar + label
+      {
+      position:fixed;
+      z-index:1002;
+      background:none;
+      border-radius:0%;
+      height:35px;
+      width:35px;
+      right:50%;
+      top:59%;
+      cursor: pointer;
+      animation: modal 1s 1s forwards;
+      visibility: hidden;
+      opacity: 0;
+      margin-top:auto;
+      margin-bottom: auto;
+      }
+        }
+
+
+
+#cerrar:checked + label, #cerrar:checked ~ .modal {
+  display: none;
+}
+
+@keyframes modal {
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+

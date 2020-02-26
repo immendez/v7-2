@@ -1,0 +1,286 @@
+/*footer:hover{
+	bottom:50%;
+
+}
+
+footer:after{
+    font-family:'icomoon';
+	content:'\e903';
+	position:absolute;
+	width: 80px;
+	height: 80px;
+	background:black;
+	color:black;
+	position: absolute;
+	border-radius: 50%;
+	font-size:6.4em;
+	left: 50%;
+	margin-left: -40px;
+	top: 0px;
+	margin-top:-30px;
+	text-shadow: 0px -30px 0px white;
+	transition-duration:0.4s;
+
+}
+
+footer:hover:after{
+	transform:rotate(180deg);
+	background:red;
+	color:white;
+
+	text-shadow: 0px -19px 0px black;
+
+}
+*/
+footer{
+	background-color:#000000;
+    padding: 3rem;
+    margin-top: 5rem; 
+
+}
+
+footer .contenedor_footer{
+	width:100%;
+	height:auto;
+	background:none;
+}
+
+
+footer .comparir_en_redes #Comparte{
+	background:none;
+	color:white;
+	font-size:1em;
+	width:100%;
+	text-align:center;
+
+}
+
+footer .redes_sociales{
+	
+	margin-top:20px;
+	width:100%;
+	height:40px;
+	background:none;
+	text-align:center;
+
+	
+}
+
+footer .redes_sociales a{
+	color:white;
+	margin-top:-10px;/*situa el caracter en el div que lo contiene*/
+	width:40px;
+	height:40px;
+	background:none;
+	display:inline-block;
+	position:relative;
+
+
+	
+}
+/*pone el caracter de facebook*/
+footer .redes_sociales  #facebook:nth-child(1):after{
+	
+	
+	text-decoration:none;
+	position:absolute;
+	font-size:2em;
+	top:0px;
+	left:5px;
+	font-family:'icomoon';
+	content:'\ea91';
+}
+
+/*animación del hover facebook*/
+
+footer .redes_sociales #facebook:nth-child(1):hover{
+	
+	content:'\ea91';
+	color:#3b5999;
+}
+
+/*footer .redes_sociales #facebook:nth-child(1):active{
+	
+	content:'\e900';
+	color:black;
+	background:#3b5999;
+	
+}*/
+
+
+
+/*pone el caracter de twitter*/
+footer .redes_sociales  #twitter:nth-child(2):after{
+	
+	
+    text-decoration:none;
+	position:absolute;
+	font-size:2em;
+	top:2px;
+	left:5px;
+	font-family:'icomoon';
+	content:'\ea96';
+}
+
+/*animación del hover twitter*/
+
+footer .redes_sociales #twitter:nth-child(2):hover{
+	
+	content:'\e901';
+	color:#55acee;
+	
+}
+
+/*footer .redes_sociales #twitter:nth-child(2):active{
+	
+	content:'\e901';
+	color:black;
+	background:#55acee;
+}*/
+
+/*
+
+footer .redes_sociales  #instagram:nth-child(3):after{
+	
+	
+    text-decoration:none;
+	position:absolute;
+	font-size:2em;
+	top:2px;
+	left:5px;
+	font-family:'icomoon';
+	content:'\e902';
+}
+
+
+footer .redes_sociales #instagram:nth-child(3):hover{
+	
+	content:'\e902';
+	color:#e4405f;
+	
+}
+footer .redes_sociales #twitter:nth-child(3):active{
+	
+	content:'\e902';
+	color:black;
+	background:#e4405f;
+}
+*/
+/*@media (min-width: 668px) {
+footer .redes_sociales.whatsapp { display: none }
+}*/
+
+/*Pone el caracter whatsapp*/
+footer .redes_sociales  #whatsapp:nth-child(3):after{
+	
+	
+    text-decoration:none;
+	position:absolute;
+	font-size:2em;
+	top:2px;
+	left:5px;
+	font-family:'icomoon';
+	content:'\ea93';
+}
+
+/*caracter whatsapp*/
+
+footer .redes_sociales #whatsapp:nth-child(3):hover{
+	
+	content:'\ea93';
+	color:#25D366;
+	
+}
+/*animación del hover whatsapp*/
+/*footer .redes_sociales #whatsapp:nth-child(3):active{
+	
+	content:'\ea93';
+	color:black;
+	background:#25D366;
+}*/
+
+/*pone el caracter de linkedin*/
+footer .redes_sociales #linkedin:nth-child(4):after{
+	
+	color:none;
+    text-decoration:none;
+	position:absolute;
+	font-size:2em;
+	top:2px;
+	left:5px;
+	font-family:'icomoon';
+	content:'\eac9';
+}
+
+/*caracter linkedin*/
+
+footer .redes_sociales #linkedin:nth-child(4):hover{
+	
+	content:'\eac9';
+	color:#0e76a8;
+	
+}
+
+/*pondrael caracter de linkedin*/
+footer .redes_sociales #link:nth-child(5):after{
+	
+	color:none;
+    text-decoration:none;
+	position:absolute;
+	font-size:2em;
+	top:2px;
+	left:5px;
+	font-family:'icomoon';
+	content:'\eac9';
+}
+
+/*caracter link*/
+
+footer .redes_sociales #link:nth-child(5):hover{
+	
+	content:'\eac9';
+	color:red;
+	
+}
+
+/*content:'\eac9';
+	color:#0e76a8;*/
+
+footer #derechos{
+	margin-top:2%;
+	color:white;
+	font-size:0.9em;
+	width:100%;
+	text-align:center;
+	background:none; 
+
+
+}
+
+
+footer .contenedor_footer  #comparte{
+	font-size:1.2em;
+	font-weight:lighter;
+	font-family:'arial';
+	bottom:-50px;
+	color:white;
+	text-align:center;
+
+}
+
+footer .contenedor_footer  #correo, 
+footer .contenedor_footer  #celular{
+	font-size:.9em;
+	font-weight:lighter;
+	font-family:'arial';
+	bottom:-50px;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+
+}
+
+footer .contenedor_footer  #celular a{
+	text-decoration:none;
+
+}

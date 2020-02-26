@@ -1,0 +1,55 @@
+
+/*estilos del boton*/
+
+.ir-arriba {
+	padding:20px;
+	display:inline-block;
+	background:#F5BFCE;
+	color:#070002 ;
+	position:fixed;
+	font-size:20px;
+	bottom:20px;
+	right:20px;
+	display:none;
+	cursor:pointer;
+	opacity:65%;
+}
+
+.ir-arriba:hover{
+	padding:20px;
+	display:inline-block;
+	background:#D7259F;
+	color:#FFFFFF;
+	cursor:pointer;
+	opacity:100%;
+}
+
+/*Móviles*/
+@media (min-width:320px) and (max-width:375px) {
+	
+	.ir-arriba {
+	padding:20px;
+	display:inline-block;
+	background:#F5BFCE;
+	color:#070002 ;
+	position:fixed;
+	font-size:15px;
+	bottom:15px;
+	right:15px;
+	display:none;
+	cursor:pointer;
+	opacity:65%;
+}
+
+.ir-arriba:hover{
+	padding:20px;
+	display:inline-block;
+	background:#D7259F;
+	color:#FFFFFF;
+	cursor:pointer;
+	opacity:100%;
+}
+	
+	}
+
+
